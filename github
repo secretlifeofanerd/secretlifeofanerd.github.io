@@ -1,0 +1,115 @@
+[ewsguest500@siebl-0224-24 ~]$ 
+[ewsguest500@siebl-0224-24 ~]$ ls
+Arduino  Documents  Music     Public  Templates  website
+Desktop  Downloads  Pictures  R       Videos
+[ewsguest500@siebl-0224-24 ~]$ cd
+[ewsguest500@siebl-0224-24 ~]$ ls
+Arduino  Documents  Music     Public  Templates  website
+Desktop  Downloads  Pictures  R       Videos
+[ewsguest500@siebl-0224-24 ~]$ cd website/
+[ewsguest500@siebl-0224-24 website]$ git init
+Initialized empty Git repository in /home/ewsguest500/website/.git/
+[ewsguest500@siebl-0224-24 website]$ git remote add origin https://github.com/secretlifeofanerd/secretlifeofanerd.github.io.git
+[ewsguest500@siebl-0224-24 website]$ git remote -v
+origin	https://github.com/secretlifeofanerd/secretlifeofanerd.github.io.git (fetch)
+origin	https://github.com/secretlifeofanerd/secretlifeofanerd.github.io.git (push)
+[ewsguest500@siebl-0224-24 website]$ git add /
+fatal: /: '/' is outside repository
+[ewsguest500@siebl-0224-24 website]$ git add .
+[ewsguest500@siebl-0224-24 website]$ git commit -m "Save my work"
+[master (root-commit) 775b010] Save my work
+ Committer: EWS Guest EWS Guest <ewsguest500@siebl-0224-24.ews.illinois.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 344 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 index.html~
+ create mode 100644 style.css
+ create mode 100644 style.css~
+[ewsguest500@siebl-0224-24 website]$ git pus -u origin master
+git: 'pus' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	push
+	pull
+[ewsguest500@siebl-0224-24 website]$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.52 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/secretlifeofanerd/secretlifeofanerd.github.io.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+[ewsguest500@siebl-0224-24 website]$ ls
+index.html  index.html~  style.css  style.css~
+[ewsguest500@siebl-0224-24 website]$ gedit index.html
+[ewsguest500@siebl-0224-24 website]$ gedit style.css
+[ewsguest500@siebl-0224-24 website]$ git add .
+[ewsguest500@siebl-0224-24 website]$ git commit -m "Save my work"
+[master 8423744] Save my work
+ Committer: EWS Guest EWS Guest <ewsguest500@siebl-0224-24.ews.illinois.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 12 insertions(+), 10 deletions(-)
+[ewsguest500@siebl-0224-24 website]$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 615 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/secretlifeofanerd/secretlifeofanerd.github.io.git
+   775b010..8423744  master -> master
+Branch master set up to track remote branch master from origin.
+[ewsguest500@siebl-0224-24 website]$ git add .
+[ewsguest500@siebl-0224-24 website]$ git commit -m "Save my work"
+[master bda15de] Save my work
+ Committer: EWS Guest EWS Guest <ewsguest500@siebl-0224-24.ews.illinois.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 13 insertions(+), 11 deletions(-)
+[ewsguest500@siebl-0224-24 website]$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 630 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/secretlifeofanerd/secretlifeofanerd.github.io.git
+   8423744..bda15de  master -> master
+Branch master set up to track remote branch master from origin.
+[ewsguest500@siebl-0224-24 website]$ git add .
+[ewsguest500@siebl-0224-24 website]$ git commit -m "Save my work"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+[ewsguest500@siebl-0224-24 website]$ 

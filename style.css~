@@ -52,7 +52,8 @@ header p {
 
 section .row img {
   margin: 0 0 30px;
-  width: 100%;
+  width: 475px;
+  height: 250px;
 }
 
 .col-md-6 {
@@ -62,7 +63,7 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #8c8c8c;
   text-shadow: none;
   background-color: #ffffff;
 }
